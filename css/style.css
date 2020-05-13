@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 50px 0;
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  pointer-events: none;
+  vertical-align: top;
+}
+
+#container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 10px 10px 0;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
+}
+
+.footer p {
+  margin: 5px 0;
+}
