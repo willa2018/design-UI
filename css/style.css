@@ -28,6 +28,10 @@ img {
   pointer-events: none;
 }
 
+img:nth-of-type(56) {
+    margin-top: -15px;
+}
+
 img:last-of-type {
   margin-bottom: 0;
 }
