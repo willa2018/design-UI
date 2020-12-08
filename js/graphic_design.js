@@ -12,7 +12,7 @@ $(function() {
     var fragment = document.createDocumentFragment()
     for (var i = 0; i < data.length; i++) {
       var imgElement = document.createElement('img')
-      imgElement.dataset.src = 'images/practice/' + data[i]
+      imgElement.dataset.src = 'images/graphic_design/' + data[i]
       imgElement.src = placeholderImage
       imgElement.alt = data[i]
       fragment.appendChild(imgElement)
